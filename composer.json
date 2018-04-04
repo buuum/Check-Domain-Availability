@@ -1,0 +1,24 @@
+{
+  "name": "buuum/checkdomainavailability",
+  "type": "library",
+  "description": "check domainav ailability",
+  "homepage": "https://github.com/buuum/Check-Domain-Availability",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alfons Martinez",
+      "email": "alfonsmartinezparra@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DomainAvailability\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
